@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "aio-bot"
+version = "0.1.0"
+description = "Telegram bot learning"
+authors = ["Aleksan <Dev.aleksan@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+aiogram = "^2.11.2"
+environs = "^9.3.1"
+loguru = "^0.5.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
